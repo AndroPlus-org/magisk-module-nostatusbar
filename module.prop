@@ -1,6 +1,6 @@
 id=no-status-bar
 name=Hide status bar
-version=v02
-versionCode=2
+version=v03
+versionCode=3
 author=AndroPlus
 description=Hide status bar by changing the height to 1px
