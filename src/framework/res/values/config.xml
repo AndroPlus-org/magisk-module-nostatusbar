@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">@HEIGHT@</dimen>
+    <dimen name="status_bar_height_default">@HEIGHT@</dimen>
+    <dimen name="status_bar_height_portrait">@HEIGHT@</dimen>
+    <dimen name="status_bar_height_landscape">@HEIGHT@</dimen>
+    <dimen name="dream_overlay_status_bar_height">@HEIGHT@</dimen>
+
+    <bool name="config_fillMainBuiltInDisplayCutout">false</bool>
+    <bool name="config_maskMainBuiltInDisplayCutout">true</bool>
+    <!-- Only the main display is overridden. Overriding
+         config_secondaryBuiltInDisplayCutout broke the cover screen layout
+         on foldables such as the Galaxy Z Flip 5. -->
+    <string name="config_mainBuiltInDisplayCutout" translatable="false">M 0,0 L -20, 0 L 0, 1 L 20, 0 Z @dp</string>
+    <string name="config_mainBuiltInDisplayCutoutRectApproximation" translatable="false"></string>
+</resources>

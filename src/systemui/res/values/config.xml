@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="status_bar_height">@HEIGHT@</dimen>
+    <dimen name="status_bar_padding_top">0px</dimen>
+    <dimen name="dream_overlay_status_bar_height">@HEIGHT@</dimen>
+    <!-- Lock screen status bar (KeyguardStatusBarView) -->
+    <dimen name="status_bar_header_height_keyguard">@HEIGHT@</dimen>
+    <dimen name="notch_height">0px</dimen>
+    <dimen name="notch_width">0px</dimen>
+    <integer name="force_use_control_panel">0</integer>
+</resources>
